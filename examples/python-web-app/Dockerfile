@@ -22,7 +22,7 @@ RUN pip install -r requirements.txt
 ENV NAME World
 
 # Run a command to start the application
-CMD ["python3", "app.py"]
+CMD ["python3", "app.py","manage.py", "runserver", "0.0.0.0:8000]
 
 
 
